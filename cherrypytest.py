@@ -6,4 +6,5 @@ class HelloWorld(object):
         return  "Hello World"
 
 if __name__ == '__main__':
+    cherrypy.config.update({'server.socket_port': 80})
     cherrypy.quickstart(HelloWorld())
