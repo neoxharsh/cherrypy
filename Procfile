@@ -1,1 +1,1 @@
-worker: python cheryypytest.py
+web: python cheryypytest.py
